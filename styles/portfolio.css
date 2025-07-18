@@ -222,4 +222,10 @@ footer input[type="text"], input[type="email"], textarea{
     .skills-description{
         width: auto;
     }
+    .resume-container{
+        flex-direction: column;
+    }
+    .resume-section{
+        padding: 10px;
+    }
 }
