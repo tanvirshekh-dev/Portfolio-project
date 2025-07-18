@@ -206,5 +206,20 @@ footer input[type="text"], input[type="email"], textarea{
     border: none;
     border-radius: 5px;
     margin-bottom: 24px;
-
 } 
+
+/* responsive media quay */
+.hide{
+    display: none;
+}
+
+/* skills media quarry */
+@media screen and (max-width: 576px) {
+    .skills-items{
+        flex-direction: column;
+        /* margin: 0px 5px; */
+    }
+    .skills-description{
+        width: auto;
+    }
+}
