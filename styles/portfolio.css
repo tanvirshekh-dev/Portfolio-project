@@ -220,9 +220,13 @@ textarea {
   .about-items,
   .resume-container,
   .banner,
-  nav {
+  nav,
+  nav ul {
     flex-direction: column;
     /* margin: 0px 5px; */
+  }
+  nav ul{
+    padding: 0px;
   }
   .banner{
     padding: 10px;
@@ -256,5 +260,8 @@ textarea {
   }
   .about-pera {
     width: auto;
+  }
+  nav ul{
+    flex-direction: column;
   }
 }
